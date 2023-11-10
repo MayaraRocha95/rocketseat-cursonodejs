@@ -87,4 +87,4 @@ node server.js
 Abra seu navegador e navegue até **http://localhost:3000** Você deve ver a mensagem **“Hello, Express!”**.
 
 ## Conclusão
-Node.js fornece um ambiente robusto e eficiente para a construção de aplicações do lado do servidor usando JavaScript. Explore o vasto ecossistema de pacotes npm para melhorar seus projetos. Feliz codificação
+Node.js fornece um ambiente robusto e eficiente para a construção de aplicações do lado do servidor usando JavaScript. Explore o vasto ecossistema de pacotes npm para melhorar seus projetos. Feliz codificação 💜💜💜
