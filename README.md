@@ -1,4 +1,5 @@
 # Node.js
+![224550089-f2541ade-c5c6-4afa-8538-51a8dda4e23b](https://github.com/MayaraRocha95/rocketseat-cursonodejs/assets/98711190/77132389-c8c6-4abe-88d4-03ffeebd1e6b)
 
 #### Visão Geral
 
