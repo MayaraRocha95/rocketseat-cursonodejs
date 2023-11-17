@@ -1,0 +1,33 @@
+import { Readable } from 'stream'; 
+import fetch from 'node-fetch';
+
+class OneToHundredStream extends Readable {
+    index = 1;
+
+    _read() {
+        const i = this.index++;
+
+        setTimeout(() => {
+            if (i > 5) {
+                this.push(null);
+            } else {
+                const buf = Buffer.from(String(i));  // Correção na chamada do método Buffer
+                this.push(buf);
+            }
+        }, 1000);
+    }
+}
+
+fetch('http://localhost:3335', {
+    method: 'POST',
+    body: new OneToHundredStream(),
+    duplex: true,
+   
+}).then(response => {
+   return response.text()
+   
+}).then( data => {
+    console.log(data)
+})
+  
+
